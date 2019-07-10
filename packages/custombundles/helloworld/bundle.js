@@ -1,9 +1,9 @@
 /**
  * Definition for bundle. See source for details.
  *
- * @class Oskari.custombundles.helloworld.MyBundle
+ * @class Oskari.custombundles.helloworld.HelloWorld
  */
-Oskari.clazz.define("Oskari.custombundles.helloworld.MyBundle",
+Oskari.clazz.define("Oskari.custombundles.helloworld.HelloWorld",
 
     /**
      * Called automatically on construction. At this stage bundle sources have been
@@ -21,7 +21,7 @@ Oskari.clazz.define("Oskari.custombundles.helloworld.MyBundle",
          * @method create
          */
         "create": function() {
-            return Oskari.clazz.create("Oskari.custombundles.helloworld.MyBundleInstance");
+            return Oskari.clazz.create("Oskari.custombundles.helloworld.HelloWorldInstance");
         },
         /**
          * Called by Bundle Manager to provide state information to
